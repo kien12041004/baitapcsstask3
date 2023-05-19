@@ -1,0 +1,135 @@
+body {
+    background-color: beige;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#tong {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+    box-shadow: 2px 1px 5px black;
+}
+
+header h1 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    margin: 5px;
+
+}
+
+header h6 {
+    font-size: 30px;
+}
+
+#menu {
+    background-color: rgb(35, 35, 35);
+    display: block;
+    box-shadow: 2px 1px 5px black;
+}
+.navbar>ul {
+    width: 100%;
+    display: inline-block;
+}
+nav{
+    width: 100%;
+}
+.navbar li {
+    padding: 10px;
+    margin: 8px;
+    float: left;
+    list-style: none;
+    display: inline;
+      
+}
+li>a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+li>a:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: aqua;
+    
+}
+.navvke .content{
+    float: right;
+}
+#layer{
+    padding: 4px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    box-shadow: 2px 1px 5px black;
+
+}
+.bentrai{
+    width: 60%;
+    padding: 5px;
+}
+.benphai{
+    width: 40%;
+    padding: 5px;
+    align-items:center ;
+    text-align: center;
+    
+}
+.noidungtrai1{
+  
+    width: 100%;
+    text-align: center ;
+    align-items:center ;
+}
+.noidungphai1{
+    
+    width: 100%;
+    text-align: center ;
+    align-items:center ;
+}
+
+.noidungphai1 h2 p{
+    margin: 2px;
+    
+}
+.noidungtrai1 img{
+    width: 500px;
+    height: 500px;
+    
+}
+.noidungphai1 img{
+    width: 200px;
+    height: 200px;
+}
+.noidungtrai2{
+    width: 100%;
+    text-align: center ;
+    align-items:center ;
+}
+.noidungtrai2 img{
+    width:500px ;
+    height:700px ;
+}
+.noidungphai2{
+    width: 100%;
+    text-align: center ;
+    align-items:center ;
+}
+.noidungphai2 img{
+    width: 200px;
+    height: 200px;
+}
+.noidungphai3 img{
+    width: 200px;
+    height: 200px;
+}
